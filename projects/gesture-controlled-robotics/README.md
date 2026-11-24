@@ -16,4 +16,8 @@ A webcam feeds a hand landmark detector. The prototypes map those coordinates to
 
 Python, MediaPipe, OpenCV, RoboDK.
 
+## Run the demo
+
+Run `python demo/gripper_control.py examples/gesture_landmarks.json` with Python 3.10 or newer. The sample replays three frames and prints `OPEN`, `CLOSED`, then `OPEN`. See [how the gesture maps to a simulated gripper](docs/robodk-setup.md).
+
 [Back to the portfolio](../../README.md)

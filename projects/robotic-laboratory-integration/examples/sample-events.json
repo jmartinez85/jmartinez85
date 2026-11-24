@@ -1,0 +1,6 @@
+[
+  {"sample": "DEMO-001", "station": "Intake", "state": "registered"},
+  {"sample": "DEMO-001", "station": "Preparation", "state": "surface prepared"},
+  {"sample": "DEMO-001", "station": "Analysis", "state": "analysis completed"},
+  {"sample": "DEMO-001", "station": "Plant systems", "state": "result acknowledged"}
+]

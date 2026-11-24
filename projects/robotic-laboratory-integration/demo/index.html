@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratory Sample Flow</title>
+<link rel="stylesheet" href="../../../assets/demo.css">
+<main>
+  <img src="../../../assets/ia-software-banner.png" alt="IA Software · Cutting-Edge Technology">
+  <h1>Laboratory Sample Flow</h1>
+
+  <p>Follow a synthetic sample from intake through preparation and analysis.</p>
+  <button id="next" disabled>Next station</button>
+  <button id="reset" disabled>Reset</button>
+  <output id="status" aria-live="polite">Loading sample events…</output>
+  <ol id="stations"></ol>
+  <pre id="event" aria-label="Current sample event"></pre>
+  <p><a href="../README.md">Project README</a></p>
+</main>
+<script type="module" src="lab-robotics-simulation.js"></script>
+</html>

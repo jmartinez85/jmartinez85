@@ -18,4 +18,17 @@ The local test suite covers parts of the pipeline, including tracking.
 
 Python, OpenCV, NumPy, YOLO11.
 
+## Run the demo
+
+This independent demo uses synthetic video and a simple centroid tracker. It illustrates the offline workflow with a deterministic input.
+
+```sh
+python -m pip install .
+python examples/generate_demo_video.py demo.avi
+python -m particle_v2.batch_runner demo.avi --profile examples/profile.example.json --output tracks.csv
+python -m unittest discover -s tests
+```
+
+The CSV contains 120 detections across 60 frames. The two particles retain their track IDs.
+
 [Back to the portfolio](../../README.md)

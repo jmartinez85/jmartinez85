@@ -20,4 +20,10 @@ KUKA KR 16 L6, KRC4, Schneider TM251MESE PLC, Magelis HMI, RoboDK, Python.
 
 [View the painting cell case study and digital twin](https://www.iasoftware.com.ar/projects/robotic-cells/)
 
+## Run the demo
+
+From the portfolio root, run `python3 -m http.server 8000 --bind 127.0.0.1`. Open [the demo](http://localhost:8000/projects/robotic-painting-digital-twin/demo/).
+
+Switch between the **Baseline** and **Alternative** paths and advance one waypoint at a time. The paths use illustrative coordinates. See the [cell architecture](docs/cell-architecture.md).
+
 [Back to the portfolio](../../README.md)

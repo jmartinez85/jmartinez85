@@ -20,4 +20,10 @@ Siemens S7-1516-3 PN/DP, TIA Portal, OPC, industrial Ethernet, Ubiquiti Loco M5,
 
 [View the warehouse case study and simulation](https://www.iasoftware.com.ar/projects/warehouse/)
 
+## Run the demo
+
+From the portfolio root, run `python3 -m http.server 8000 --bind 127.0.0.1`. Open [the demo](http://localhost:8000/projects/automated-cold-storage-warehouse/demo/).
+
+Select **Store pallet** and advance until the pallet reaches the rack, then retrieve it. The command log shows the acknowledgments. See the [control flow](docs/control-architecture.md).
+
 [Back to the portfolio](../../README.md)

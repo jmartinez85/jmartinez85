@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulated SCADA</title>
+<link rel="stylesheet" href="/static/style.css">
+<main>
+  <h1>Simulated SCADA</h1>
+  <p>Line speed <output id="speed">Loading…</output></p>
+  <p>Alarm <output id="alarm" aria-live="polite">Loading…</output></p>
+</main>
+<script type="module">
+const speed = document.getElementById("speed");
+const alarm = document.getElementById("alarm");
+async function poll() {
+  try {
+    const response = await fetch("/api/tags");
+    if (!response.ok) throw new Error("Unable to read tags");
+    const sample = await response.json();
+    speed.value = sample.line_speed + " m/min";
+    alarm.value = sample.alarm ? "High line speed" : "Normal";
+  } catch (error) {
+    speed.value = "Unavailable";
+    alarm.value = error.message;
+  }
+  setTimeout(poll, 1000);
+}
+poll();
+</script>
+</html>

@@ -18,4 +18,15 @@ Tests cover intensity profiles, region selection, presets, and weld width valida
 
 Python, OpenCV, YOLOv5, LabVIEW, TCP.
 
+## Run the demo
+
+```sh
+python -m pip install -r requirements.txt
+python demo/generate_sample.py sample.npy
+python demo/seam_detection.py sample.npy
+python -m unittest discover -s tests
+```
+
+The expected result is `Seam column: 113`. See [the integration diagram](docs/legacy-integration.md) for the historical system boundary.
+
 [Back to the portfolio](../../README.md)

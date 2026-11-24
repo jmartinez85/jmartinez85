@@ -6,6 +6,8 @@ I'm an industrial automation, AI, and robotics engineer with more than 20 years 
 
 Featured projects include [particle inspection](projects/particle-inspection/), [weld inspection](projects/weld-inspection/), [web SCADA](projects/web-scada/), and the [Android detector builder](projects/android-detector-builder/).
 
+Each project page includes a runnable demo and setup instructions. The industrial demos use simulated equipment and sample data.
+
 ## Industrial Integration and Commissioning
 
 | Project | My Contribution | Technologies |

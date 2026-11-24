@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warehouse Control Simulation</title>
+<link rel="stylesheet" href="../../../assets/demo.css">
+<main>
+  <img src="../../../assets/ia-software-banner.png" alt="IA Software · Cutting-Edge Technology">
+  <h1>Warehouse Control Simulation</h1>
+
+  <p>Move a pallet between the infeed and an illustrated storage slot. Step through the commands and acknowledgments.</p>
+  <button id="store">Store pallet</button>
+  <button id="retrieve">Retrieve pallet</button>
+  <button id="next">Next step</button>
+  <output id="status" aria-live="polite"></output>
+  <canvas id="scene" width="720" height="220" aria-label="Pallet position in the warehouse"></canvas>
+  <pre id="messages" aria-label="Command log"></pre>
+  <p><a href="../README.md">Project README</a></p>
+</main>
+<script type="module" src="warehouse-simulation.js"></script>
+</html>

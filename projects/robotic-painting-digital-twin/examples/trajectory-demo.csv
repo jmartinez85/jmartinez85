@@ -1,0 +1,13 @@
+path,robot,step,x,y
+Baseline,1,0,70,80
+Baseline,1,1,170,95
+Baseline,1,2,310,135
+Baseline,2,0,650,220
+Baseline,2,1,550,205
+Baseline,2,2,410,155
+Alternative,1,0,70,80
+Alternative,1,1,210,60
+Alternative,1,2,310,135
+Alternative,2,0,650,220
+Alternative,2,1,510,245
+Alternative,2,2,410,155

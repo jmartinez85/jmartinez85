@@ -16,4 +16,13 @@ The orchestrator combines rule-based responses, FAQ retrieval, and an adapter fo
 
 Python, FastAPI, Pydantic, JavaScript.
 
+## Run the demo
+
+```sh
+python -m pip install -r requirements.txt
+python -m uvicorn services.api.main:app --host 127.0.0.1 --port 8000
+```
+
+Open [the chatbot](http://localhost:8000/) and ask about opening hours. The demo uses a fictional FAQ and shows whether a rule, retrieval, or the fallback handled each question. Run `python -m unittest discover -s tests/unit` to verify routing.
+
 [Back to the portfolio](../../README.md)

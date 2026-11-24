@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { color: #e9f2fa; background: #101c29; font: 16px/1.6 system-ui, sans-serif; margin: auto; max-width: 900px; padding: 24px; }
+a { color: #8bdcff; }
+img { display: block; width: 100%; height: auto; border-radius: 8px; }
+button, select { font: inherit; padding: .45rem .75rem; margin: .2rem; }
+button { cursor: pointer; }
+button:disabled { cursor: default; }
+canvas { display: block; width: 100%; border: 1px solid #48667c; background: #152737; }
+output { display: block; margin-block: 12px; }
+pre { white-space: pre-wrap; background: #172d40; padding: 1rem; min-height: 3rem; }
+li { margin-block: .45rem; }

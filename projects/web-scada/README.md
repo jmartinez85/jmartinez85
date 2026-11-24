@@ -16,4 +16,13 @@ The SCADA application stores historical data and streams status changes and alar
 
 Python, FastAPI, WebSocket, SQLite, python-snap7, React, Flask.
 
+## Run the demo
+
+```sh
+python -m pip install -r requirements.txt
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+
+Open [the simulated dashboard](http://localhost:8000/). The sample speed changes every two seconds and the alarm activates above 75 m/min. The endpoint `/api/tags` exposes the current synthetic signals.
+
 [Back to the portfolio](../../README.md)

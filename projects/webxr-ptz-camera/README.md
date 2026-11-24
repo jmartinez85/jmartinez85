@@ -16,4 +16,8 @@ The desktop client displays RTSP video, saves camera presets, and translates tex
 
 Python, OpenCV, ONVIF, RTSP, Node.js, FFmpeg, WebXR.
 
+## Run the demo
+
+Run `npm start` with Node.js 20 or newer and open [the camera simulator](http://localhost:8080/). Pan, tilt and zoom move an illustrated target. **Home** resets it. This browser demo exercises the control API against a simulated camera. The case study above describes the separate hardware and immersive prototypes.
+
 [Back to the portfolio](../../README.md)

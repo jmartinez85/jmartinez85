@@ -1,0 +1,10 @@
+{
+  "display_name": "Example Detector",
+  "version": "1.0",
+  "version_code": 1,
+  "input_size": 320,
+  "classes_from": "coco",
+  "num_classes": 80,
+  "param": "detector.ncnn.param",
+  "bin": "detector.ncnn.bin"
+}

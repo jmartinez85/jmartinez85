@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painting Cell Trajectory Comparison</title>
+<link rel="stylesheet" href="../../../assets/demo.css">
+<main>
+  <img src="../../../assets/ia-software-banner.png" alt="IA Software · Cutting-Edge Technology">
+  <h1>Painting Cell Trajectory Comparison</h1>
+
+  <label>Path <select id="trajectory"><option>Baseline</option><option>Alternative</option></select></label>
+  <button id="next" disabled>Next waypoint</button>
+  <button id="reset" disabled>Reset</button>
+  <output id="status" aria-live="polite">Loading waypoints…</output>
+  <canvas id="scene" width="720" height="290" aria-label="Two illustrative robot paths"></canvas>
+  <p><a href="../README.md">Project README</a></p>
+</main>
+<script type="module" src="robotic-painting-simulation.js"></script>
+</html>
