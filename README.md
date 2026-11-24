@@ -6,6 +6,14 @@ I'm an industrial automation, AI, and robotics engineer with more than 20 years 
 
 Featured projects include [particle inspection](projects/particle-inspection/), [weld inspection](projects/weld-inspection/), [web SCADA](projects/web-scada/), and the [Android detector builder](projects/android-detector-builder/).
 
+## Industrial Integration and Commissioning
+
+| Project | My Contribution | Technologies |
+| --- | --- | --- |
+| **[Automated Cold-Storage Warehouse](projects/automated-cold-storage-warehouse/)** | Developed and commissioned the PLC controls that coordinate freezing, pallet handling, and automated storage. Integrated supervisory software over OPC and the stacker crane over an industrial radio link. | Siemens S7-1500, TIA Portal, OPC, SINAMICS |
+| **[Robotic Laboratory Integration](projects/robotic-laboratory-integration/)** | Integrated FANUC sample handling with lab instruments and developed C++ interfaces on QNX to exchange data with plant SCADA and production systems. | FANUC, C++, QNX, SCADA, OES/XRF |
+| **[Robotic Painting Cell and Digital Twin](projects/robotic-painting-digital-twin/)** | Programmed and helped commission a two-robot KUKA painting cell. Integrated Schneider controls and used a RoboDK digital twin to evaluate trajectories and product flow. | KUKA KRC4, Schneider PLC/HMI, RoboDK, Python |
+
 ## Machine Vision and Industrial Automation
 
 | Project | What I Built | Technologies |
