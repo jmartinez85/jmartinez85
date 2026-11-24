@@ -8,6 +8,8 @@ Featured projects include [particle inspection](projects/particle-inspection/), 
 
 Each project page includes a runnable demo and setup instructions. The industrial demos use simulated equipment and sample data.
 
+[Open the interactive demos on GitHub Pages](https://jmartinez85.github.io/jmartinez85/).
+
 ## Industrial Integration and Commissioning
 
 | Project | My Contribution | Technologies |

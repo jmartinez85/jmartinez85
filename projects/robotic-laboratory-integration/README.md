@@ -22,7 +22,9 @@ FANUC, Thermo Scientific ARL SMS-3500, C++, QNX, SCADA, optical emission spectro
 
 ## Run the demo
 
-From the portfolio root, run `python3 -m http.server 8000 --bind 127.0.0.1`. Open [the demo](http://localhost:8000/projects/robotic-laboratory-integration/demo/).
++[Open the laboratory simulation on GitHub Pages](https://jmartinez85.github.io/jmartinez85/projects/robotic-laboratory-integration/demo/).
+
+To run it locally, start `python3 -m http.server 8000 --bind 127.0.0.1` from the portfolio root and open [the local demo](http://localhost:8000/projects/robotic-laboratory-integration/demo/).
 
 Select **Next station** to advance a synthetic metal sample. The sample identifier persists while the station and state change. See the [sample flow](docs/sample-flow.md).
 

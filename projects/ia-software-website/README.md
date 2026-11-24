@@ -16,9 +16,13 @@ The website organizes projects by topic, includes multilingual content, and inco
 
 HTML, CSS, JavaScript, Three.js.
 
+[Visit the IA Software website](https://www.iasoftware.com.ar/)
+
 ## Run the demo
 
-From the portfolio root, run `python3 -m http.server 8000 --bind 127.0.0.1`. Open [the demo](http://localhost:8000/projects/ia-software-website/demo/).
++[Open the project catalog demo on GitHub Pages](https://jmartinez85.github.io/jmartinez85/projects/ia-software-website/demo/).
+
+To run it locally, start `python3 -m http.server 8000 --bind 127.0.0.1` from the portfolio root and open [the local demo](http://localhost:8000/projects/ia-software-website/demo/).
 
 Select an area to filter the illustrative catalog. See the [site structure](docs/site-structure.md).
 
