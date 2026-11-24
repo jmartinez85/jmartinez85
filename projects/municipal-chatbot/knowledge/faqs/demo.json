@@ -1,5 +1,0 @@
-[
-  {"keywords": ["hours", "schedule", "open"], "answer": "The demo service desk opens weekdays from 09:00 to 16:00."},
-  {"keywords": ["permit", "permits", "license"], "answer": "For the demo, request a permit at the service desk."},
-  {"keywords": ["trash", "recycling", "pickup"], "answer": "The demo recycling pickup is every Thursday."}
-]

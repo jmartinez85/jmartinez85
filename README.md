@@ -33,7 +33,6 @@ Each project page includes a runnable demo and setup instructions. The industria
 | --- | --- | --- |
 | **[Android Detector Builder](projects/android-detector-builder/)** | Builds one Android APK per pretrained NCNN model. Validates a manifest and packages model files, labels, and metadata into an existing detection template. | Python, Android, Gradle, NCNN |
 | **[Local Vision Assistant](projects/local-vision-assistant/)** | Lets users ask about webcam images in natural language. One prototype uses Gradio and GGUF models, and another uses Qwen2-VL with Transformers. | Python, OpenCV, Gradio, llama.cpp, Transformers |
-| **[Hybrid Municipal Chatbot](projects/municipal-chatbot/)** | Combines rules, FAQ retrieval, and a language model. The portal supports per-chatbot rules, suggestions, and settings. | Python, FastAPI, Pydantic, JavaScript |
 
 ## Cameras, Robotics, and Telemetry
 
@@ -42,12 +41,6 @@ Each project page includes a runnable demo and setup instructions. The industria
 | **[PTZ Camera Control with WebXR](projects/webxr-ptz-camera/)** | Provides live video, camera presets, and text controls on desktop. A Meta Quest prototype brings video and camera control into an immersive session. | Python, OpenCV, ONVIF, RTSP, Node.js, FFmpeg, WebXR |
 | **[Gesture-Controlled Robotics in RoboDK](projects/gesture-controlled-robotics/)** | Turns hand movements captured by a webcam into tool and gripper movements in a simulated robot cell. | Python, MediaPipe, OpenCV, RoboDK |
 | **[Three-Phase Energy Monitoring](projects/three-phase-energy-monitoring/)** | Logs readings from a three-phase solar power meter over Modbus. Includes an MQTT subscriber and a forecasting notebook. | Python, Modbus, MQTT, pandas, Jupyter |
-
-## Web Development
-
-| Project | What I Built | Technologies |
-| --- | --- | --- |
-| **[IA Software Project Website](projects/ia-software-website/)** | A multilingual website showcasing automation, robotics, and computer vision through case studies and 3D demonstrations. | HTML, CSS, JavaScript, Three.js |
 
 ## About Me
 

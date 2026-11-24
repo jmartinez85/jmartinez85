@@ -1,5 +1,0 @@
-[
-  {"title": "Warehouse Control", "area": "Automation", "summary": "A PLC and supervisory system coordinate pallet movement."},
-  {"title": "Robotic Sample Handling", "area": "Robotics", "summary": "A lab cell moves samples through preparation and analysis."},
-  {"title": "Label Inspection", "area": "Vision", "summary": "An OCR pipeline reads the identifier on a sample label."}
-]
